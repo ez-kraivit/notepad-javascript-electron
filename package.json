@@ -1,0 +1,20 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "sass": "node-sass sass/main.scss css/style.css",
+    "mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/favicon.icns --prune=true --out=release-builds"
+  },
+  "keywords": [],
+  "author": "Kraivit Mongkhonsakunrit",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-packager": "^15.2.0",
+    "node-sass": "*"
+  },
+  "dependencies": {}
+}
